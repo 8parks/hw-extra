@@ -1,0 +1,31 @@
+.mainbox {
+    background-color: pink;
+    width: 500px;
+    height: 300px;
+    border: solid 2px black;
+    border-radius: 5px;
+    position: relative;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+  
+.smallbox {
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  
+.xbox {
+    position: absolute;
+    right: 2px;
+    bottom: 0px;
+}
+
+#toggleButton {
+    font-size: 50px;
+}
